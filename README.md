@@ -1,6 +1,3 @@
-Aquí tienes una propuesta de archivo **README.md** profesional y estructurada para tu repositorio. Está diseñada específicamente para un proyecto de Node.js y Express basado en la estructura típica de cursos de este tipo (como los de freeCodeCamp o similares).
-
----
 
 # ExpressCursos 🚀
 
