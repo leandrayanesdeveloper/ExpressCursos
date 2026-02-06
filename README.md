@@ -42,6 +42,7 @@ El servidor se ejecutará por defecto en `http://localhost:3000`.
 | **GET** | `/api/cursos/programacion` | Obtiene cursos de programación. |
 | **GET** | `/api/cursos/programacion/:lenguaje` | Filtra cursos por lenguaje (ej: python). |
 | **POST** | `/api/cursos/programacion` | Agrega un nuevo curso. |
+| **POST** | `/api/cursos/matematicas` 
 
 ---
 
