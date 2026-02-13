@@ -1,7 +1,7 @@
 
 # ExpressCursos 🚀
 
-Este proyecto es una API RESTful desarrollada con **Node.js** y **Express**. El objetivo principal es gestionar la información de cursos de programación y matemáticas, permitiendo filtrar por diferentes categorías como programación, matemáticas, diseño, entre otras.
+Este proyecto es una API RESTful desarrollada con **Node.js** y **Express**. El objetivo principal es gestionar la información de cursos de programación, permitiendo filtrar por diferentes categorías como programación, matemáticas, diseño, entre otras.
 
 ## 📋 Características
 
@@ -29,6 +29,44 @@ ExpressCursos/
 
 ```
 
+## 🚀 Instalación y Uso
+
+Sigue estos pasos para ejecutar el proyecto localmente:
+
+1. **Clona el repositorio:**
+```bash
+git clone https://github.com/leandrayanesdeveloper/ExpressCursos.git
+
+```
+
+
+2. **Accede al directorio del proyecto:**
+```bash
+cd ExpressCursos
+
+```
+
+
+3. **Instala las dependencias:**
+```bash
+npm install
+
+```
+
+
+4. **Inicia el servidor:**
+* Para producción/uso normal:
+```bash
+npm start
+
+```
+
+
+* Para desarrollo (con auto-recarga):
+```bash
+npm run dev
+
+```
 
 
 El servidor se ejecutará por defecto en `http://localhost:3000`.
@@ -42,9 +80,7 @@ El servidor se ejecutará por defecto en `http://localhost:3000`.
 | **GET** | `/api/cursos/programacion` | Obtiene cursos de programación. |
 | **GET** | `/api/cursos/programacion/:lenguaje` | Filtra cursos por lenguaje (ej: python). |
 | **POST** | `/api/cursos/programacion` | Agrega un nuevo curso. |
-| **POST** | `/api/cursos/matematicas` 
 
----
 
 ## 👤 Autor
 
